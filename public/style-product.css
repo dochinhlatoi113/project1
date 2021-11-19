@@ -1,0 +1,119 @@
+*{
+    font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+section{
+    margin-top: 20px;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2c3e50;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    border:none;
+    height: 35px;
+    width: 100%;
+}
+button:hover{
+    background-color: black;
+    transition: 0.3s all ease;
+    height: 35px;
+}
+.product-hot-btn-link{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.product-hot-title{
+    text-align: center;
+    font-size: 35px;
+}
+.product-hot-img{
+    width: 100%;
+}
+.product-hot-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #7fcefd;
+}
+.product-hot-title{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.product-hot-title__white,.product-hot-price__white{
+    font-size: 20px;
+    color: #3498db;
+}
+.product-hot-price{
+    text-align: center;
+}
+.product-hot-btn{
+    font-size: 15px;
+    width: 100%;
+}
+/* ..................aboSut.................. */
+.body-product-about{
+    background-color:#f4f5f6;
+    position: relative;
+}
+.body-product-about-list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.body-product-about-list-item__small{
+    width: 80%;
+    border-radius: 10rem;
+    height: 200px;
+}
+
+.title-product-about{
+    font-size: 20px;
+    margin: auto;
+    white-space:wrap;
+    overflow: hidden;
+    max-width: 200px;
+    margin-top: 10px;
+}
+.item-img{
+    width: 100%;
+}
+.product-item-title{
+    font-size: 25px;
+}
+.item-img-title,.item-img-price{
+    font-size: 15px;
+}
+.product-items{
+    display: flex;
+    align-items: center;
+    background-color:#428437;
+    justify-content: space-between;
+}
+.product-items-list{
+    margin-top: 15px;
+}
+.product-item{
+    margin-top: 20px;
+}
+.item-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #7fcefd;
+}
+.item-link{
+    color: white !important;
+}
+.product-item-title{
+    background-color:#428437;
+    color: white;
+}
+
+.product-item-see{
+    color: white;
+}

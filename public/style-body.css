@@ -1,0 +1,86 @@
+section{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none !important;
+}
+
+.body-layout{
+    margin-top: 96px ;
+}
+.body-layout-list{
+    display: flex;
+    justify-content: space-between;
+}
+.layout-list{
+    display: flex;
+}
+.body-layout-intro{
+    font-family: 'Roboto Slab', serif;
+}
+.body-layout-text{
+    font-weight: bold;
+}
+.body-layout-item-btn{
+    margin-top: 15px;
+}
+.body-layout-item-list{
+    -webkit-box-shadow: -2px 7px 16px 3px rgba(201,197,201,1);
+    -moz-box-shadow: -2px 7px 16px 3px rgba(201,197,201,1);
+    box-shadow: -2px 7px 16px 3px rgba(201,197,201,1);
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 90%;
+  
+}
+.body-layout-item-list:hover{
+    transform: scale(1.025);
+    transition: 0.4s;
+}
+.body-layout-item-list-link__white{
+    font-size: 25px;
+}
+
+.see{color:#00a376;}
+.body-layout-item-vid{
+    width: 100%;
+}
+
+/* ........................................ */
+.body-intro-layout{
+    background-image: url('./img/banner/bg.PNG');
+  
+}
+.intro-layout-img{
+width: 100%;
+height: 200px;
+}
+.icon-intro-list{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.icon{
+    font-size: 35px !important;
+}
+.fa-facebook-official{
+    color: #0c88ef;
+    font-size: 35px;
+}
+.fa-youtube{
+    color: #ff0000;
+}
+.fa-twitter{
+    color:#00b6f1 ;
+}
+.fa-pinterest-p{
+    color: #c71e27;
+}
+.product-hot-title__white{
+    width: 100%;
+}

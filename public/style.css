@@ -1,0 +1,261 @@
+*{
+  font-size: 18px;
+}
+.layout{
+    position: relative;
+    /* padding: 12em 0 6em; */
+    
+    background-image: 
+  linear-gradient(to right bottom, 
+   rgba(76, 216, 255, 0.8),
+   rgba(30, 108, 217, 0.8)),
+   url('./img/banner/be-thuy-sinh-phong-cach-ha-lan.jpg');
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    background-size: cover;
+}
+a{
+    text-decoration: none !important;
+    
+}
+.layout-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  padding-top: 10px;
+ 
+}
+.left-header-menu-box{
+    display: flex;
+    align-items: center;
+
+}
+.header-nav-item{
+    color: white;
+}
+.header-nav-item:hover{
+    zoom: 125%;
+    display: block;
+    transition: .10s ease-in-out;
+}
+.left-header-menu{
+width: 70%;
+}
+.img{
+    width: 100%;
+}
+
+
+.right-header-menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+
+.center-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+    }
+    
+    .center-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    }
+    
+    
+    
+
+    /* .....INTRO......... */
+    .line-1{
+        position: relative;
+        top: 100%;  
+        width: 24em;
+        margin: 0 auto;
+      
+        font-size: 180%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);   
+        
+        font-size: 45px;
+           
+        margin-top: 100px; 
+    }
+    
+    /* Animation */
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+                 blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0;}
+      to{width: 1em }
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+    }
+
+
+    .line-2{
+        position: relative;
+        top: 100%;  
+        width: 24em;
+        margin: 0 auto;
+      
+      
+        text-align: center;
+       white-space: pre-wrap;
+        overflow: hidden;
+       
+        
+        font-size: 20px;
+           
+       
+    }
+    
+    /* Animation */
+    .anim-typewriter-2{
+      animation: typewriter 2s steps(44) 1s 1 normal both,
+                 blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0;}
+      to{width: 24em;}
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+    }
+
+    /* /end animation/ */
+    .header-search{
+      margin-top: 35px;
+    }
+    .header-search-input{
+      width: 40%;
+      height: 50px;
+      border-radius: 0.5rem;
+      outline: none;
+      border: 0.5px solid #76ce32;
+    }
+/* ............product........................
+   */
+   body {
+  	font-family: 'Lato', sans-serif;
+  	font-weight: 400;
+  	font-size: 16px;
+  	line-height: 1.7;
+  	color: #eee;
+}
+
+.header {
+  	height: 100vh;
+  	background-image: 
+	  linear-gradient(to right bottom, 
+     rgba(76, 216, 255, 0.8),
+     rgba(30, 108, 217, 0.8)),
+     url('https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg');
+  	
+	background-size: cover;
+  	background-position: top;
+  	position: relative;
+
+  	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.brand-box {
+  	position: absolute;
+  	top: 40px;
+  	left: 40px;
+}
+
+.brand { font-size: 20px; }
+
+.text-box {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.heading-primary {
+  	color: #fff;
+  	text-transform: uppercase;
+
+  	backface-visibility: hidden;
+  	margin-bottom: 30px;
+}
+
+.heading-primary-main {
+  	display: block;
+  	font-size: 26px;
+  	font-weight: 400;
+  	letter-spacing: 5px;
+}
+
+.heading-primary-sub {
+  	display: block;
+  	font-size: 18px;
+  	font-weight: 700;
+  	letter-spacing: 7.4px;
+}
+
+.btn:link,
+.btn:visited {
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: inline-block;
+  	border-radius: 100px;
+  	transition: all .2s;
+  	position: relative;
+}
+
+.btn:hover {
+  	transform: translateY(-3px);
+  	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  	transform: translateY(-1px);
+  	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  	background-color: #fff;
+  	color: #777;
+	font-size: 14px;
+}
+.menu-img{
+  width: 60%;
+}
+.header-menu,.header-menu-nav,.header-menu-item{
+  display: flex;
+  align-items: center;
+  
+}
+.header-menu-nav{
+  justify-content: space-between;
+  
+}
+a{
+  text-decoration: none !important;
+  
+}
+.header-menu-nav-item__white{
+  color: white;
+}
+.header-menu-item{
+  justify-content: space-evenly;
+}

@@ -17,7 +17,7 @@ class ListOrderController extends Controller
 {
     public function list_order(Request $request){
       
-       $list = Order::select(['order.id' ,'customer.name'])
+       $list = Order::select(['order.id' ,'customer.name','order.created_at'])
         ->Join('customer', function ($join) {
             $join->on('order.customer_id', '=', 'customer.id');
         })

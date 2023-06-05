@@ -22,7 +22,7 @@ class ProductController extends Controller
     }
     public function index1()
     { 
-        $lists = Product::paginate(1);
+        $lists = Product::paginate(10);
         $data = [
             'lists' => $lists
         ];

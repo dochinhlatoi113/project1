@@ -11,7 +11,6 @@
                   <thead>
                     <tr>                     
                       <th>Mã order</th>
-                      <th>Tổng tiền</th>
                       <th>Tên khách hàng</th>                   
                       <th>Chi tiết</th>                    
                       <th>Ngày</th>
@@ -19,29 +18,24 @@
                     </tr>
                   </thead>
                   <tbody>
+                    =
                     @foreach($list as $item)
-                    <tr>
-                    
-                      <td>{{$item['id']}}<td>
+                    <tr>                     
+                      <td>{{$item['id']}}</td>
+                      <td>{{$item['name']}}</td>                   
                       <td>
-                      {{$item['name']}}
-                      </td>
-                      <td>
-                         <span class="badge bg-danger">
+                        <span class="badge bg-danger">
                             <a href="{{route('admin.report.index_detail_order',['id' => $item['id']])}}"> xem chi tiết </a>
 
                          </span>
-                      </td>                                   
-                     <td>xx</td>
+                      </td>                    
+                      <td>{{$item['created_at']}}</td>
                       <td>
-                         <select name="stt" id="stt">
+                        <select name="stt" id="stt">
                             <option value="Success">Thành công</option>
                             <option value="Err">Thất bại</option>
                         
                         </select>
-                      </td>
-                      <td>
-                        <input type="text">
                       </td>
                     </tr>
                     @endforeach

@@ -256,16 +256,16 @@
 					
 					<div class="recommended_items"><!--recommended_items-->
 						<h2 class="title text-center">recommended items</h2>
-					
-								@foreach($item as $row)
+							
+								@foreach($item as $row)							
 									<div class="col-sm-4">
 										<div class="product-image-wrapper">
 											<div class="single-products">
 												<div class="productinfo text-center">
 													<img src="images/home/recommend1.jpg" alt="">
 													<h2>$56</h2>
-													<p>{{$row['name']}}</p>
-													<button type="button" class="btn btn-default add-to-cart"> <a href="{{route('detail',['id'=>$row->ids])}}">xem chi tiết</a></button>
+													<p>{$row['name']}</p>
+													<button type="button" class="btn btn-default add-to-cart"> <a href="{{route('detail')}}">xem chi tiết</a></button>
 												</div>
 
 												
@@ -273,7 +273,7 @@
 										</div>
 									</div>
 								@endforeach
-								
+							
 							</div>
 							 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
 								<i class="fa fa-angle-left"></i>

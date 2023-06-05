@@ -31,7 +31,7 @@ use Illuminate\Support\Facades\Auth;
 class order_successController extends Controller
 {
     public function Pay(){
-        
+        var_dump(111);exit;
         return view('front.cart.success_order');
     }
 

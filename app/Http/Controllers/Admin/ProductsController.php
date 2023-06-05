@@ -131,7 +131,7 @@ class ProductsController extends Controller
          $products->des = $request->input('des-longs');
         $products->des_img = $request->input('des_img');
       
-         var_dump($products->des_img);exit;
+        
         $products->save();
       
         // lap images post tu ben ngoai

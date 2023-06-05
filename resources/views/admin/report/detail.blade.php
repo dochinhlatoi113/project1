@@ -22,15 +22,22 @@
                     </tr>
                   </thead>
                   <tbody>
-                  
+                  <?php $tong = 0; ?>
                    @foreach($products as $product)
                     <tr>                    
                       <td>{{ $product->name }}</td>     
                       <td>{{ $product->quantity }}</td> 
                       <td>{{ $product->price }}</td> 
-                      <td>XXXX</td>
+                      <td>{{$total = $product->quantity * $product->price }}</td>
                     </tr>
+                   {{$tong = $tong + $total}}
                   @endforeach
+                    <tr>
+                      <td>total</td>
+                      <td></td>
+                      <td></td>
+                      <td><?php echo $tong ?></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>

@@ -98,7 +98,7 @@ class PayController extends Controller
 
 
         $cart = session('cart');
-       
+        
         foreach($cart as $val){                   
         
             $data[] = [
@@ -125,6 +125,7 @@ class PayController extends Controller
 
     public function order_success(Request $request)
     {
-        return view('front.cart.sucess_order');
+       
+        return view('front.cart.success_order');
     }
 }    
